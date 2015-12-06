@@ -10,7 +10,7 @@
     "url": "git://github.com/travis-ci/travis-ci-node.js-example.git"
   },
   "scripts": {
-    "test": "vows --spec"
+    "test": "mocha --trace-deprecation"
   },
   "engines": {
     "node": ">= 4.2"
