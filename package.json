@@ -13,11 +13,10 @@
     "test": "vows --spec"
   },
   "engines": {
-    "node": ">= 0.4"
+    "node": ">= 4.2"
   },
   "dependencies": {},
   "devDependencies": {
-    "vows": "0.6.x"
+    "mocha": "^2.3.x"
   }
 }
-
